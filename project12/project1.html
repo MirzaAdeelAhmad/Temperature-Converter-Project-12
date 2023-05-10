@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ----------------------  CSS FILE LINK  ----------------------- -->
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+
+    <!-- -------------------------  HTML PART  ------------------------- -->
+    <div class="main">
+        <form class="box" onsubmit="CheckTemp(); return false">
+            <h4>Please enter the temperature you'd like to convert</h4>
+            <input type="number" class="number" id="number" >
+
+            <select name="" id="selectTemp" class="select">
+                <option value="Cel">Celius</option>
+                <option value="Faren">farenheit</option> 
+            </select>
+            <br>
+            <input type="submit" class="button"> 
+            <br>
+            <div class="Result">
+              <span id="finalResult"></span>
+            </div>
+        </form>
+        <h2 style="font-size: 17px;">Developed by Adeel Mirza</h2>
+    </div>
+
+
+     <!-- ------------------ JAVA SCRIPT FILE LINK -------------------- -->
+    <script src="project1.js"></script>
+    
+</body>
+</html>
